@@ -1,0 +1,21 @@
+blog post 1
+
+html css and java are used for front end web development
+
+
+
+
+github experience.
+i have used github before in 2nd year. it was intimidating then but now its just forboding now. maybe its because i have not watched the video yet but there is a lot of new vocab for me, or rather instructions that sound like every 3rd word is made up. i suppose all words are made up. Hanli and Brendan made the experience followable so i am to the point where i need to deploy the website but my 15 minutes of concentration had finished so i here is where i lay. what do you mean deploy... 
+
+a few days later...
+i asked a friend and they showed me how to deploy.
+
+lets talk about the readings though.
+most of them have a weird font so it pushed me to read the reading with the most reasonable readable writing. that happened to be the tower of babel. the tower of bable is a bit slow and i was unsure what it had to do with anything until i remebered we are making websites.
+
+ the tower of babel is a piece about this seemingly infinite library. a vessel for all knowledge. the walls of the library are mirrors, creating the perception of limitlessness. however this libary is infinte, each book seems as though there are a random assortment of letters, however when you combine the words and books in certain combinations it actual provides an infinte sorce of knowledge. just like the internet (to a degree). the random letters assorted correctley, give you info in the tower, but on the internet it is links and code that do this. this assortment of random letters in a pattern send you to different websites with different information. the contemporary version of the tower of babel is the intenet itself. 
+
+My goals for this course
+
+i am an artist, and recently i have tried selling some of my work. i would like to have a website dedicated to my art. i want my website to be efficent and creative. i want my website to look almost sketch like. the lines maybe not being as clean or organised but the aestics easily readble. i want to know what makes a good website and what makes a bad one. i am also looking for skills that cant be replaced by AI.
