@@ -6,27 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <script type="module"> import { initialize } from "./scripts/menu.js"
-        initialize("Home")</script>
+    <script type="module"> import { initialiseMenu } from "./scripts/menu.js"
+        initialiseMenu("Home")</script>
 </head>
 
 <body>
     <header>
         <h1>Welcome to Djibraeel's Website</h1>
         <hr>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Blogs/index.html">Blog</a></li>
-                <li><a href="Essays/essay1.html">Essay 1</a></li>
-                <li><a href="design.html">Design</a></li>
-                <li><a href="About/index.html">About</a></li>
-            </ul>
-    
-        </nav>
+        
     </header>
 
+    <nav id="main-nav"></nav>
 
+    <script src="menu.js"></script>
     </div>
 
     <p>Hi, I am Djibraeel Morojele. I am currently a student at Wits University.
