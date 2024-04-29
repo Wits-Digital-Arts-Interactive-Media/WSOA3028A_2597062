@@ -4,6 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Djibraeel's interactive media work and art">
+    <meta name="author" content="Djibraeel Morojele">
+    <meta name="keywords" content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://wits-digital-arts-interactive-media.github.io/WSOA3028A_2597062/"
+        },
+        "headline": "Djibraeel Art website",
+        "author": {
+            "@type": "Person",
+            "name": "Djibraeel Morojele",
+            "url": "https://wits-digital-arts-interactive-media.github.io/WSOA3028A_2597062/"
+        }
+    }
+    </script>
+    
+
+    <script type="module"> //in your head, b4 title
+        import { initialise } from "../Scripts/menu.js";
+        initialise(""); // Call the initialise function with a test argument
+    </script>
     <title>Style Guide</title>
 
     <style>
@@ -37,8 +63,10 @@
 </head>
 
 <body>
+    <header>
     <h1>Style Guide</h1>
-
+    <nav>  </nav>
+</header>
     <section class="color-palette">
         <h2>Color Palette</h2>
         <p>
@@ -123,6 +151,8 @@
         and engaging user experience. The artwork will act decorative but not take away from the UI. I want to have an
         artwork on each page and have my website feel like a gallery.
     </p>
+    <button onclick="scrollToTop()">Scroll To Top</button>
+    <script src="/scripts/scrollToTop.js"></script>
 </body>
 
 </html>

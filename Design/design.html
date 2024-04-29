@@ -1,7 +1,63 @@
 <!DOCTYPE html>
+
 <head>
     <title>Designs</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            flex: 0 0 50%;
+            margin-right: 20px;
+        }
+
+        .annotation {
+            flex: 1;
+        }
+
+        .annotation p {
+            margin: 0;
+            padding-left: 10px;
+        }
+    </style>
 </head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Djibraeel's interactive media work and art">
+<meta name="author" content="Djibraeel Morojele">
+<meta name="keywords"
+    content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://wits-digital-arts-interactive-media.github.io/WSOA3028A_2597062/"
+    },
+    "headline": "Djibraeel Art website",
+    "author": {
+        "@type": "Person",
+        "name": "Djibraeel Morojele",
+        "url": "https://wits-digital-arts-interactive-media.github.io/WSOA3028A_2597062/"
+    }
+}
+</script>
+
+<script type="module"> //in your head, b4 title
+    import { initialise } from "../Scripts/menu.js";
+    initialise(""); // Call the initialise function with a test argument
+</script>
+<header>
+
+    <h1>Welcome to my Design page</h1>
+    <nav> </nav>
+</header>
+
 <body>
     <div class="navbar">
         <ul>
@@ -17,8 +73,54 @@
     <p> this is where I will be showing my designs for my UI, content mapping, semantic markup, and wireframes</p>
     <h2> wireframe iteration 1</h2>
     <img src="../Images/websitewireframe1.drawio.png" alt="wireframe how pages will look">
-</section>
-<h2> content mapping</h2>
-<section>
-    <img src="../Images/contentMap.drawio.png" alt="the content mapping for the website">
+    </section>
+    <h2> content mapping</h2>
+    <section>
+        <img src="../Images/contentMap.drawio.png" alt="the content mapping for the website">
+    </section>
+    <section>
+        <h2> wireframes Iteration 2</h2>
+        <div class="container">
+            <img src="/Images/HomePage.png" alt="HomePage wireframe" class="image">
+            <div class="annotation">
+                <p>
+                    This is the annotation text for the image. It can provide additional information about the image or
+                    describe its content in more detail.
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="/Images/BlogPage.png" alt="Blog page wireframe" class="image">
+            <div class="annotation">
+                <p>
+                    This is the annotation text for the image. It can provide additional information about the image or
+                    describe its content in more detail.
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="/Images/EssayPage.png" alt="Essay page wireframe" class="image">
+            <div class="annotation">
+                <p>
+                    This is the annotation text for the image. It can provide additional information about the image or
+                    describe its content in more detail.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <img src="/Images/DesignPage.png" alt="Design wireframe" class="image">
+            <div class="annotation">
+                <p>
+                    This is the annotation text for the image. It can provide additional information about the image or
+                    describe its content in more detail.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <button onclick="scrollToTop()">Scroll To Top</button>
+    <script src="/scripts/scrollToTop.js"></script>
+
 </body>
