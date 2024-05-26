@@ -1,10 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color:#799162
-	; background-image: url(/Images/lion.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right;
-    background-size: 50% auto;
+    min-height: 50vh;
+    background-color:#799162;
+    background-image: url(/../WSOA3028A_2597062/Images/lion.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: left;
+    
 }
 h1{
     color: #540302;
