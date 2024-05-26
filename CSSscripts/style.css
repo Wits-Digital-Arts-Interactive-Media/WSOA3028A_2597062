@@ -1,0 +1,30 @@
+body{
+    background-color:#799162
+	; background-image: url(/Images/lion.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: 50% auto;
+}
+h1{
+    color: #540302;
+}
+p{
+    color: black;
+}
+#p1{
+    color: darkblue;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    background-color: #ebdfa6;
+    border-style: double;
+    border-width: 10px;
+    border-color: #540302;
+    padding: 5px;
+}
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250xp;
+    font-size: 22px;
+    background-color: #ab3130;
+}
