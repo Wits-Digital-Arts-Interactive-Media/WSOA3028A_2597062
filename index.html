@@ -11,69 +11,62 @@
 
 
 
-    <script type="module"> //in your head, b4 title
+    <!--  I really really tried to get my javanav bar to work but i am fighting demon, I will fix for my final assignment
+     <script type="module"> //in your head, b4 title
         import { initialise } from "./scripts/menu.js";
         initialise("Home"); // Call the initialise function with a test argument
-    </script>
+    </script>-->
 
     <title>Home</title>
     <link rel="stylesheet" href="CSSscripts/style.css">
 </head>
 
 <body>
-
     <header>
-
-        <h1>Welcome to Djibraeel's Website</h1>
-        <nav>
-
-
-        </nav>
-
-
-
         
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Blogs/index.html">Blog</a></li>
+                <li><a href="/Essays/essay1.html">Essay</a></li>
+                <li><a href="/Portfolio/index.html">Art</a></li>
+                <li><a href="/Design/index.html">Design</a></li>
+                <li><a href="/About/index.html">About</a></li>
+            </ul>
+        </nav>
+        <div>
+
+        </div>
+        <h1>Welcome to Djibraeel's Website</h1>
     </header>
-<hr>
-<main>
-    <div id="top"></div>
 
-    <div id=" box1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, odio reprehenderit, eligendi
-        dolorum expedita, id laudantium officia amet qui enim aperiam fugit? Voluptatibus laudantium vero animi eius
-        architecto, excepturi voluptate?
+    <main>
+        <div class="mainImage"> <img src="/Images/Mountain.png" alt="image of mountainous island that I drew" class="image"
+            title="Mountain" ></div>
 
-    </div>
-    <div id=" box2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, odio reprehenderit, eligendi
-        dolorum expedita, id laudantium officia amet qui enim aperiam fugit? Voluptatibus laudantium vero animi eius
-        architecto, excepturi voluptate?
+        <p id="p1">Hi, I am Djibraeel Morojele. I am currently a student at Wits University.
+            This website is part of an ongoing Interactive media assignment, where I intend on
+            making a full website depicting my portfolio as a student and as an artist. I will be
+            posting blog posts based on the topics I am learning in web design. My portfolio will
+            depict my artworks across media, and I will also showcase my essays and assignments.
+            I aim to make this a fully fledged artist website where I can communicate my artwork, provide contact for
+            commissions and collaborations, and as a means to purchase art.
+            I hope you enjoy this website and find it as clear and creative as I wish it to be.</p>
+        <p>Read more about Djibraeel on the About page.</p>
+        <a href="/About/index.html"><button>Read more</button></a>
+        <a href="#top">Back to top</a>
+    </main>
 
-    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Djibraeel Morojele | All rights reserved</p>
+        </div>
+    </footer>
+</body>
 
-
-
-    <p id="p1">Hi, I am Djibraeel Morojele. I am currently a student at Wits University.
-        This website is part of an ongoing Interactive media assignment, where I intend on
-        making a full website depicting my portfolio as a student and as an artist. I will be
-        posting blog posts based on the topics I am learning in web design. My portfolio will
-        depict my artworks across media, and I will also showcase my essays and assignments.
-        I aim to make this a fully fledged artist website where I can communicate my artwork, provide contact for
-        commissions and collaborations, and as a means to purchase art.
-        I hope you enjoy this website and find it as clear and creative as I wish it to be.</p>
-    <!-- try using pre instead of p when fixing this properly-->
-    <p>Read more about Djibraeel on the About page.</p>
-    <a href="/About/index.html"><button>Read more</button></a>
-
-    <!-- <section>
+</html>
+<!-- <section>
         <img src="Images/Screenshot_20240219_130917_Instagram.jpg"
             alt="this is an mixed media painting by Djibraeel, depicting 3 versions of himsel with long hair standing close to each other, the divsion between bodies is made by the arms and vibrant colours.  "
             title=" 3 man">
     </section> -->
-
-    <a href="#top">Back to top</a>
-    <script src="/scripts/menu.js"></script>
-</main>
-<hr>
-<footer> </footer>
-</body>
-
-</html>

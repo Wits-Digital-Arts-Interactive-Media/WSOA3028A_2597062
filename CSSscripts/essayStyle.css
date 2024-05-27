@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('/Images/geometric-snjq2au3b3x1szi9.jpg') repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: black;
+    background-color: #ab3130;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #ab3130;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #ebdfa6;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #540302;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #ab3130;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: black;
+    background-color: #799162;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ebdfa6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    background-color: #540302; /* Background color of the footer */
+    color: #ebdfa6; /* Text color in the footer */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Padding around the footer content */
+    position: fixed; /* Fixes the footer at the bottom */
+    width: 100%; /* Ensures the footer spans the full width of the page */
+    bottom: 0; /* Positions the footer at the bottom */
+    border-top: 5px solid #ab3130; /* Optional: Adds a border at the top of the footer */
+}
+
+.footer-content p {
+    margin: 0; /* Removes default margin from the paragraph */
+    font-family: 'Georgia', Times New Roman, Times, serif; /* Optional: Match font style */
+    color: #ebdfa6;
+}

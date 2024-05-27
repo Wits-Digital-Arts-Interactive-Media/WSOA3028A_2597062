@@ -1,50 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Djibraeel's interactive media work and art">
-    <meta name="author" content="Djibraeel Morojele">
-    <meta name="keywords" content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Djibraeel's interactive media work and art">
+        <meta name="author" content="Djibraeel Morojele">
+        <meta name="keywords"
+            content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
     
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "NewsArticle",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://wits-digital-arts-interactive-media.github.io/WSOA3028A_2597062/"
-        },
-        "headline": "Djibraeel Art website",
-        "author": {
-            "@type": "Person",
-            "name": "Djibraeel Morojele",
-            "url": "https://wits-digital-arts-interactive-media.github.io/WSOA3028A_2597062/"
-        }
-    }
-    </script>
-    <script type="module"> //in your head, b4 title
-        import { initialise } from "../Scripts/menu.js";
-        initialise("Blog"); // Call the initialise function with a test argument
-    </script>
-    <title> Blog post Week 6</title>
-</head>
+    
+    
+        <!--  I really really tried to get my javanav bar to work but i am fighting demon, I will fix for my final assignment
+         <script type="module"> //in your head, b4 title
+            import { initialise } from "./scripts/menu.js";
+            initialise("Home"); // Call the initialise function with a test argument
+        </script>-->
+    
+        <title>Home</title>
+        <link rel="stylesheet" href="/CSSscripts/style.css">
+    </head>
 <body>
     <header> 
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Blogs/index.html">Blog</a></li>
+                <li><a href="/Essays/essay1.html">Essay</a></li>
+                <li><a href="/Portfolio/index.html">Art</a></li>
+                <li><a href="/Design/index.html">Design</a></li>
+                <li><a href="/About/index.html">About</a></li>
+            </ul>
+        </nav>
         <h1> Blog post week 6 -Pros and Cons of South African Websites</h1>
     </header>
-    <ul>
-        <li> <a href = "index.html">Blog Menu</a></li>
-        <li>  <a href="blog.html"><strong> Week 1</strong></a>  </li>
-        <li>  <a href="blog2.html"><strong> Week 2</strong></a>  </li>
-        <li>  <a href="blog3.html"><strong> Week 3</strong></a>  </li>
-        <li>  <a href="blog4.html"><strong> Week 4</strong></a>  </li>
-        <li>  <a href="blog6.html"><strong> Week 6</strong></a>  </li>
-        <li>  <a href="blog7.html"><strong> Week 8</strong></a>  </li>
-        <li>  <a href="blog9.html"><strong> Week 9</strong></a>  </li>
-        <li>  <a href="blog10.html"><strong> Week 10</strong></a>  </li>
-        
-        </ul>
+   
     <h2> OR Tambo International airport</h2>
     <p> <a href="https://ortambo-airport.com/index.html" class="link">Visit OR Tambo International Airport Website</a>
     
@@ -152,5 +141,11 @@
     <button>
        <a href="blog7.html">Next</a>
     </button>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Djibraeel Morojele | All rights reserved</p>
+        </div>
+    </footer>
 </body>
 </html>

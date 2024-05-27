@@ -9,7 +9,7 @@
     <meta name="keywords"
         content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
     <title>Blog</title>
-    <script src="/scripts/menu.js" defer></script>
+    <link rel="stylesheet" href="/CSSscripts/style2.css">
 </head>
 
 <body>
@@ -20,33 +20,109 @@
         </nav>
     </header>
     <h1> Hi Welcome to my blog page</h1>
+    <p>from this page you will be able to see short descriptions of each of my blogs and be able to navigate to find
+        which one you'd like to read</p>
 
-
-    <div>
-        <p>from this page you will be able to see short descriptions of each of my blogs and be able to navigate to find
-            which one you'd like to read</p>
-
-        <h2>Blog Posts</h2>
-        <ul>
-            <li>
-                <a href="#"><strong> Week 1</strong></a><br>
-                My first experiences coding in HTML, trying to get GitHub to work, and my response to the reading "Tower
-                of Babel" (<a href="#">link to reading</a>).
-            </li>
-            <li>
-                <a href="#"><strong> Week 2</strong></a><br>
-                The reading was about hypertext and I respond to it by unpacking its relevance today. I also underlined my
-                folder structure and URL set up.
-            </li>
-            <!-- Add more blog post items with href="#" to the same page -->
-        </ul>
-    </div>
+        <div class="timeline">
+            <a href="blog.html" class="container left-container">
+                <div class="text-box">
+                    <h2> Tower of Bable</h2>
+                    <small>Blog post 1</small>
+                    <p>My first experiences coding in HTML, trying to get GitHub to work, and my response to the reading
+                        "Tower of Babel"</p>
+                </div>
+            </a>
     
-    <script type="module">
-        import { initialise } from "./scripts/menu.js";
-        initialise("Blogs"); // Call the initialise function with a test argument
-    </script>
-
-</body>
-
-</html>
+            <a href="blog2.html" class="container right-container">
+                <div class="text-box">
+                    <h2> HyperText</h2>
+                    <small>Blog post 2</small>
+                    <p>The reading was about hypertext and I respond to it by unpacking its relevance today. I also underlined
+                        my folder structure and URL set up</p>
+                </div>
+            </a>
+    
+            <a href="blog3.html" class="container left-container">
+                <div class="text-box">
+                    <h2> Who are my Users</h2>
+                    <small>Blog post 3</small>
+                    <p>I did some investigating to find out my user alignment and who my users are</p>
+                </div>
+            </a>
+    
+            <a href="blog4.html" class="container right-container">
+                <div class="text-box">
+                    <h2> my ixd process</h2>
+                    <small>Blog post 4</small>
+                    <p>Goals, Users, Content</p>
+                </div>
+            </a>
+    
+            <a href="blog6.html" class="container left-container">
+                <div class="text-box">
+                    <h2> South African website analysis</h2>
+                    <small>Blog post 6</small>
+                    <p>I measured the pros and cons of 3 south african websites</p>
+                </div>
+            </a>
+    
+            <a href="blog7.html" class="container right-container">
+                <div class="text-box">
+                    <h2> Internet Access as a Fundamental Right</h2>
+                    <small>Blog post 7</small>
+                    <p>close reading...</p>
+                </div>
+            </a>
+    
+            <a href="blog9.html" class="container left-container">
+                <div class="text-box">
+                    <h2> Week 9: Exploring Information Geographies</h2>
+                    <small>Blog post 9</small>
+                    <p></p>
+                </div>
+            </a>
+    
+            <a href="blog10.html" class="container right-container">
+                <div class="text-box">
+                    <h2> Digital inequalities</h2>
+                    <small>Blog post 10</small>
+                    <p>close reading...</p>
+                </div>
+            </a>
+    
+            <a href="blog11.html" class="container left-container">
+                <div class="text-box">
+                    <h2> Algorithmic Colonization of Africa</h2>
+                    <small>Blog post 11</small>
+                    <p>close reading</p>
+                </div>
+            </a>
+    
+            <a href="blog13.html" class="container right-container">
+                <div class="text-box">
+                    <h2> The internet as a moral space</h2>
+                    <small>Blog post 12</small>
+                    <p>close reading..</p>
+                </div>
+            </a>
+        </div>
+    
+        <div>
+            <h2>Blog Posts</h2>
+            <ul>
+                <li>
+                    <a href="blog.html"><strong> Week 1</strong></a><br>
+                    My first experiences coding in HTML, trying to get GitHub to work, and my response to the reading "Tower
+                    of Babel" (<a href="#">link to reading</a>).
+                </li>
+                <!-- Other list items -->
+            </ul>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Djibraeel Morojele | All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+    
+    </html>

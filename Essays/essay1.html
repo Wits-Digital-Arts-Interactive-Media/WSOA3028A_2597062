@@ -6,69 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Djibraeel's interactive media work and art">
     <meta name="author" content="Djibraeel Morojele">
-    <meta name="keywords"
-        content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
-
-    <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://wits-digital-arts-interactive-media.github.io/WSOA3028A_2597062/"
-    },
-    "headline": "Djibraeel Art website",
-    "author": {
-        "@type": "Person",
-        "name": "Djibraeel Morojele",
-        "url": "https://wits-digital-arts-interactive-media.github.io/WSOA3028A_2597062/"
-    }
-}
-</script>
-    <script type="module"> //in your head, b4 title
-        import { initialise } from "../Scripts/menu.js";
-        initialise("Essays"); // Call the initialise function with a test argument
-    </script>
+    <meta name="keywords" content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
 
     <title>Essay 1 UI/UX Analysis</title>
-    <style>
-        h1,
-        h2 {
-            font-size: 24px;
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-        }
-
-        h3 {
-            font-size: 1.5em;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
-
-        article {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="/CSSscripts/essayStyle.css">
 </head>
 
 <body>
     <header>
         <h1>Essay 1 UI/UX Analysis</h1>
-        <nav>
-            <!-- Add your navigation links here if needed -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Blogs/index.html">Blog</a></li>
+                <li><a href="/Essays/essay1.html">Essay</a></li>
+                <li><a href="/Portfolio/index.html">Art</a></li>
+                <li><a href="/Design/index.html">Design</a></li>
+                <li><a href="/About/index.html">About</a></li>
+            </ul>
         </nav>
     </header>
-    <article>
-        <section>
+
+    <article class="essay-content">
+        <div class="text-container">
+            <section>
             <h2>Introduction</h2>
             <p>Interaction, as defined by Bardin, R. (2023), is “the meeting point between an active body and something
                 that it can affect in some way.” This essay aims to analyse the interaction design and ethical
@@ -246,8 +207,13 @@
             </p>
         </section>
     </article>
+    <footer>
     <button onclick="scrollToTop()">Scroll To Top</button>
     <script src="/scripts/scrollToTop.js"></script>
+    <div class="footer-content">
+        <p>&copy; 2024 Djibraeel Morojele | All rights reserved</p>
+    </div>
+</footer>
     
 </body>
 
