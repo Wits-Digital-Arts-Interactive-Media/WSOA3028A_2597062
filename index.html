@@ -6,43 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Djibraeel's interactive media work and art">
     <meta name="author" content="Djibraeel Morojele">
-    <meta name="keywords"
-        content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
-
-
-
-    <!--  I really really tried to get my javanav bar to work but i am fighting demon, I will fix for my final assignment
-     <script type="module"> //in your head, b4 title
-        import { initialise } from "./scripts/menu.js";
-        initialise("Home"); // Call the initialise function with a test argument
-    </script>-->
-
+    <meta name="keywords" content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
     <title>Home</title>
-    <link rel="stylesheet" href="CSSscripts/style.css">
+    <link rel="stylesheet" href="/CSSscripts/style.css">
 </head>
 
 <body>
     <header>
-        
-        <nav class="navbar">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/Blogs/index.html">Blog</a></li>
-                <li><a href="/Essays/essay1.html">Essay</a></li>
-                <li><a href="/Portfolio/index.html">Art</a></li>
-                <li><a href="/Design/index.html">Design</a></li>
-                <li><a href="/About/index.html">About</a></li>
-            </ul>
-        </nav>
-        <div>
+        <!-- Navbar placeholder -->
+        <div class="navbar"></div>
 
-        </div>
         <h1>Welcome to Djibraeel's Website</h1>
     </header>
 
     <main>
-        <div class="mainImage"> <img src="/Images/Mountain.png" alt="image of mountainous island that I drew" class="image"
-            title="Mountain" ></div>
+        <!--<div class="mainImage"> <img src="/Images/Mountain.png" alt="image of mountainous island that I drew"
+                class="image" title="Mountain"></div> -->
+
+        <div class="slider">
+            <div class="sliders">
+                <img class="slide" src="/Images/lion.png" alt="image1">
+                <img class="slide" src="/Images/Untitled_Artwork 5.png" alt="image2">
+                <img class="slide" src="/Images/Untitled_Artwork 10.png" alt="image3">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
 
         <p id="p1">Hi, I am Djibraeel Morojele. I am currently a student at Wits University.
             This website is part of an ongoing Interactive media assignment, where I intend on
@@ -62,11 +51,9 @@
             <p>&copy; 2024 Djibraeel Morojele | All rights reserved</p>
         </div>
     </footer>
+
+    <!-- Reference the JavaScript file -->
+    <script src="/scripts/navigation.js"></script>
 </body>
 
 </html>
-<!-- <section>
-        <img src="Images/Screenshot_20240219_130917_Instagram.jpg"
-            alt="this is an mixed media painting by Djibraeel, depicting 3 versions of himsel with long hair standing close to each other, the divsion between bodies is made by the arms and vibrant colours.  "
-            title=" 3 man">
-    </section> -->

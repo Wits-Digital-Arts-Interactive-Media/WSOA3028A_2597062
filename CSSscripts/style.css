@@ -25,29 +25,32 @@ h1 {
 
 .navbar {
     background-color: #ab3130;
-    padding: 70px;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto; /* Push the logo to the left */
 }
 
 .navbar ul {
     list-style-type: none;
     display: flex;
-    justify-content: right;
-    padding: 5px;
 }
 
 .navbar li {
-    position: relative;
     margin: 0 10px;
 }
 
 .navbar a {
     color: #ebdfa6;
     text-decoration: none;
-    padding: 20px 60px;
+    padding: 10px 20px;
     background-color: #540302;
     border-radius: 5px;
     transition: background-color 0.3s;
-    display: block;
 }
 
 .navbar a:hover {
@@ -67,6 +70,7 @@ h1 {
 
 p {
     color: black;
+    
 }
 
 #p1 {
@@ -101,4 +105,14 @@ p {
     margin: 0;
     font-family: 'Georgia', Times New Roman, Times, serif;
     color: #ebdfa6;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 100;
+    display: none;
 }
