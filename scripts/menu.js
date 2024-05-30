@@ -1,7 +1,7 @@
-const root = "WSOA3028A_2597062"
+const root = "/WSOA3028A_2597062"
 
 const menuItems = [
-    { name: "Home", href: `${root}/index.html` },
+    { name: "Home", href: root+ "/index.html" },
     { name: "Blog", href: `${root}/Blogs/index.html` },
     { name: "Essay", href: `${root}/Essays/essay1.html` },
     { name: "Art", href: `${root}/Portfolio/index.html` },
@@ -14,23 +14,23 @@ export function initialise(currentPage) {
     const ul = document.createElement("ul");
     ul.classList.add('navbar');
 
-    menuItems.forEach(menuItem => {
-        const li = document.createElement("li");
-        const a = document.createElement("a");
-        a.innerText = menuItem.name;
-        a.setAttribute("href", menuItem.href);
-
-        if (currentPage === menuItem.name) {
+   for(let menuItem of menuItems) {
+        const li = document.createElement("li")
+        li.classList.add("menu-item");
+        if(currentPage !=menuItem.name){
+            const a = document.createElement("a")
+            a.innerText = menuItem.name
+            a.setAttribute("href", menuItem.href)
+            li.appendChild(a)
+        }else {
+            li.innerText=menuItem.name
             li.classList.add("active");
         }
-
-        li.appendChild(a);
-        ul.appendChild(li);
-    });
-
-    nav.appendChild(ul);
+        ul.appendChild(li)
+    }
+    nav.appendChild(ul)
 }
-
+        
 
 
 
