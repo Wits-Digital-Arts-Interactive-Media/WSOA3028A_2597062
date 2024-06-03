@@ -10,10 +10,10 @@
         content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
 
     <title>Home</title>
-    <script type="module" src="./scripts/menu.js"></script>
+    <!-- <script type="module" src="./scripts/menu.js"></script>  crl ku  undo- crlu-->
     <script type="module">
-        import { initialiseMenu } from './scripts/menu.js';
-        initialiseMenu('index.html');
+        import { initialise } from './scripts/menu.js';
+        initialise('Home');
     </script>
 
 
@@ -40,8 +40,8 @@
 
         <div class="slider">
             <div class="sliders">
-                <img class="slide" src="/Images/lion.png" alt="image1">
-                <img class="slide" src="/Images/Untitled_Artwork 5.png" alt="image2">
+                <img class="slide" src="Images/lion.png" alt="image1">
+                <img class="slide" src="Images/Untitled_Artwork 5.png" alt="image2">
                 <img class="slide" src="/Images/Untitled_Artwork 10.png" alt="image3">
             </div>
             <button class="prev" onclick="prevSlide()">&#10094</button>
