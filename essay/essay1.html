@@ -9,21 +9,19 @@
     <meta name="keywords" content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
 
     <title>Essay 1 UI/UX Analysis</title>
-    <link rel="stylesheet" href="/CSSscripts/essayStyle.css">
+    <script type="module" src="../scripts/menu.js"></script>
+    <script type="module">
+        import { initialiseMenu } from '../scripts/menu.js';
+        initialiseMenu('Essay');
+    </script>
+    <link rel="stylesheet" href="../CSSscripts/essayStyle.css">
 </head>
 
 <body>
     <header>
         <h1>Essay 1 UI/UX Analysis</h1>
         <nav class="navbar">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/Blogs/index.html">Blog</a></li>
-                <li><a href="/Essays/essay1.html">Essay</a></li>
-                <li><a href="/Portfolio/index.html">Art</a></li>
-                <li><a href="/Design/index.html">Design</a></li>
-                <li><a href="/About/index.html">About</a></li>
-            </ul>
+           
         </nav>
     </header>
 
