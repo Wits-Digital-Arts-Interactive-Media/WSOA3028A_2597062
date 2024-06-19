@@ -10,19 +10,26 @@
 
 
 
-    <!--  I really really tried to get my javanav bar to work but i am fighting demon, I will fix for my final assignment
+      I really really tried to get my javanav bar to work but i am fighting demon, I will fix for my final assignment
      <script type="module"> //in your head, b4 title
         import { initialise } from "./scripts/menu.js";
-        initialise("Home"); // Call the initialise function with a test argument
-    </script>-->
+        initialise(""); // Call the initialise function with a test argument
+    </script>
 
     <title>Blog 1 </title>
-    <link rel="stylesheet" href="/CSSscripts/style.css">
+    <script type="module" src="../scripts/menu.js"></script>
+    <script type="module">
+        import { initialise } from '../scripts/menu.js';
+        initialise('Blog');
+    </script>
+    <link rel="stylesheet" href="../CSSscripts/style2.css">
 </head>
 <body>
     <header>
-        
         <nav class="navbar">
+
+        </nav>
+        <!-- <nav class="navbar">
             <div class="logo">
                 <a href="/index.html">PakoTheArtist</a>
             </div>
@@ -34,7 +41,7 @@
                  <li><a href="/Design/index.html">Design</a></li>
                  <li><a href="/About/index.html">About</a></li>
              </ul>
-         </nav>
+         </nav> -->
        <h1>Blog 1: Tower of Bable</h1>
 
     </header>

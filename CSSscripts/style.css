@@ -38,6 +38,7 @@ h1 {
 .navbar ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-around;
 }
 
 .navbar li {
@@ -70,7 +71,6 @@ h1 {
 
 p {
     color: black;
-    
 }
 
 #p1 {
@@ -106,16 +106,23 @@ p {
     font-family: 'Georgia', Times New Roman, Times, serif;
     color: #ebdfa6;
 }
-.slider{
+
+.slider {
     position: relative;
     width: 100%;
     margin: auto;
     overflow: hidden;
 }
-.slider img{
-    width: 100;
+
+.slider img {
+    width: 100%;
     display: none;
 }
-img.displaySlide{
-    display:block;
+
+img.displaySlide {
+    display: block;
+}
+
+#about{
+    
 }
