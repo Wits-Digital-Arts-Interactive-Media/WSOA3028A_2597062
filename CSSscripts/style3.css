@@ -6,14 +6,32 @@
 }
 
 body {
-    background: whitesmoke;
+    background: #4f7b58;
     color: gray;
 
 }
 
-.button{
+.button {
     background-color: #ab3130;
-    padding: 20px 70px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #ebdfa6;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 30px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.button:hover:after {
+    transform: translate(-50%, -50%) scale(1);
 }
 
 #header {
@@ -152,33 +170,30 @@ img {
 
 .artselect {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    height: 400px;
-    position: relative;
-    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 3000px;
     box-sizing: border-box;
-    margin-top: 90px;
-}
-
-.card-container {
+    margin-top: 60px;
+  }
+  
+  .cardcontainer {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
   
   .card {
-    flex: 0 0 30%; /* adjust the width to your liking */
+    flex: 0 0 20%; /* adjust the width to your liking */
     margin: 20px;
-    background-color: #eef1f3;
+    background-color: #ebdfa6;
     border: 1px solid #011e30;
     border-radius: 10px;
-    padding: 20px;
+    padding: none;
     text-align: center;
     transition: transform 0.3s;
   }
@@ -193,7 +208,6 @@ img {
     object-fit: cover;
     margin-bottom: 20px;
   }
-
 .sleepy {
     width: 150px;
     /* Adjust as needed */

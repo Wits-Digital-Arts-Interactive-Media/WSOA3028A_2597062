@@ -10,71 +10,68 @@
         content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
 
     <title>Home</title>
-    <!-- <script type="module" src="./scripts/menu.js"></script>  crl ku  undo- crlu-->
-    <script type="module">
-        import { initialise } from './scripts/menu.js';
-        initialise('Home');
-    </script>
-
-
-    <link rel="stylesheet" href="CSSscripts/style.css">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSSscripts/style3.css">
 </head>
 
 <body>
-    <header>
-       <div id ="headerz">
-<div class="container">
-    <nav>
-        
-    </nav>
-</div>
-       </div>
-
-
-        <h1>Welcome to Djibraeel's Website</h1>
-        <nav class="navbar">
-
-        </nav>
-
-    </header>
-
-    <main>
-         <div class="mainImage"> <img src="Images/Mountain.png" alt="image of mountainous island that I drew"
-                class="image" title="Mountain"></div>
-
-        <div class="slider">
-            <div class="sliders">
-                <img class="slide" src="Images/lion.png" alt="image1">
-                <img class="slide" src="Images/Untitled_Artwork 5.png" alt="image2">
-                <img class="slide" src="/Images/Untitled_Artwork 10.png" alt="image3">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/Images/Untitled_Artwork 9.png" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blogz/index.html">Blog</a></li>
+                    <li><a href="essay/essay1.html">Essay</a></li>
+                    <li><a href="art/index.html">Art</a></li>
+                    <li><a href="designs/index.html">Design</a></li>
+                    <li><a href="about/index.html">About</a></li>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <h1>Djibraeel Pako Lionel Morojele Art Portfolio</h1>
             </div>
-            <button class="prev" onclick="prevSlide()">&#10094</button>
-            <button class="next" onclick="nextSlide()">&#10095</button>
+
         </div>
-        <script src="/scripts/image.js"></script>
+    </div>
+    <section class="artselect">
+        <div class="cardcontainer">
 
-        <p id="p1">Hi, I am Djibraeel Morojele. I am currently a student at Wits University.
-            This website is part of an ongoing Interactive media assignment, where I intend on
-            making a full website depicting my portfolio as a student and as an artist. I will be
-            posting blog posts based on the topics I am learning in web design. My portfolio will
-            depict my artworks across media, and I will also showcase my essays and assignments.
-            I aim to make this a fully fledged artist website where I can communicate my artwork, provide contact for
-            commissions and collaborations, and as a means to purchase art.
-            I hope you enjoy this website and find it as clear and creative as I wish it to be.</p>
-        <p>Read more about Djibraeel on the About page.</p>
-        <a href="/About/index.html"><button>Read more</button></a>
-        <a href="#top">Back to top</a>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 Djibraeel Morojele | All rights reserved</p>
+            <div class="card">
+                <div class="card content">
+                    <h2>Digital Art</h2>
+                    <p>painting with pixels</p>
+                    <img src="/Images/Untitled_Artwork 4.png" alt="Digital Art">
+                    <a href="art/digitalArt.html" class="button">Perceive</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card content">
+                    <h2>Fabric Painting</h2>
+                    <p>painting with pixels</p>
+                    <img src="/Images/skullPants.jpg" alt="Fabric Painting">
+                    <a href="art/fabricpainting.html" class="button">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card content">
+                    <h2>Drawing</h2>
+                    <p>applying marks to paper with a dry stick</p>
+                    <img src="/Images/cyborg.jpg" alt="Drawing">
+                    <a href="art/drawing.html" class="button">View</a>
+                </div>
+            </div>
         </div>
-    </footer>
-
+        </div>
+    </section>
 
 </body>
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Djibraeel Morojele | All rights reserved</p>
+
+    </div>
+</footer>
 
 </html>
