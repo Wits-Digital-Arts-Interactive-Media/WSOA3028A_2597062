@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px 10%;
+    z-index: 1000;
+    background-color: #ab3130;
+}
+body{
+    background:#ebdfa6 ;
+}
+
+.logo {
+    width: 140px;
+    margin-right: 20px;
+    display: inline-block;
+    overflow: visible;
+    padding-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ab3130;
+    font-size: 20px;
+}
+
+.header text {
+    margin-top: 20%;
+    color: whitesmoke;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.header-content h1 {
+    color: white;
+    /* Change the color if needed */
+    font-size: 3rem;
+    /* Adjust the font size as needed */
+}
+.artcontainer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 40px 20px 0 20px;
+}
+.artcontainer .heading{
+width: 50%;
+padding-bottom: 50px;
+}
+.artcontainer .heading h3{
+font-size: 3em;
+font-weight: bolder ;
+border-bottom: 3px solid #222;
+}
+.artcontainer .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.artcontainer .box .gallery{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+
+}
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the figure and figcaption elements */
+.gallery figure {
+    margin: 20px;
+    display: inline-block;
+}
+
+.gallery figcaption {
+    font-size: 16px;
+    color: #540302;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Update the.gallery container styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px;
+}
+
+/* Add a gap between the images */
+.gallery figure:not(:last-child) {
+    margin-right: 20px;
+}
