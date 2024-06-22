@@ -9,52 +9,42 @@
     <meta name="keywords"
         content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
 
-    
+    <title>Design Posts</title>
 
-
-    <title>Blog Posts</title>
-    <script type="module" src="../scripts/menu.js"></script>
-    <script type="module">
-        import { initialiseMenu } from './scripts/menu.js';
-        initialiseMenu('Design');
-    </script>
-    <link rel="stylesheet" href="../CSSscripts/style.css">
+    <link rel="stylesheet" href="../CSSscripts/designStyle.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="index.html">PakoTheArtist</a>
-            </div>
-            <ul>
+    <div class="container"> <!-- Add a container element to wrap around the entire content -->
+        <header>
+            <nav class="navbar">
+              <a href="../index.html" class="logo">
+                <img src="/Images/Untitled_Artwork 9.png" alt="Logo">
+              </a>
+              <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../blogz/index.html">Blog</a></li>
                 <li><a href="../essay/essay1.html">Essay</a></li>
                 <li><a href="../art/index.html">Art</a></li>
                 <li><a href="../designs/index.html">Design</a></li>
                 <li><a href="../about/index.html">About</a></li>
-            </ul>
-        </nav>
-        <h1> Design page</h1>
-        
-    </header>
-    <h2>Designs</h2>
-    <ul>
-        <li>
-            <a href="design.html"><strong> wireframes</strong></a><br>
-            this is where I will be showing my designs for my UI, content mapping, semantic markup, and wireframes.
-        </li>
-        <li>
-            <a href="styleGuide.html"><strong> Style Guide</strong></a><br>
-            This style guide is where I will show my planning for fonts, colours, layout, and overall composition. 
-        </li>
+              </ul>
+            </nav>
+            <h1>Design page</h1>
+          </header>
+        <div class="design-selection">
+           
+            <div class="button-container">
+                <a href="design.html" class="button">Wireframes</a>
+                <a href="styleGuide.html" class="button">Style Guide</a>
+            </div>
+        </div>
 
-    </ul>
-
-    <footer class="footer">
-
-    </footer>
+        <footer class="footer">
+            <!-- Footer content here -->
+        </footer>
+    </div>
 </body>
+
 
 </html>

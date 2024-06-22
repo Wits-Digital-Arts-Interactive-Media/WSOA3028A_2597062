@@ -4,125 +4,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Djibraeel's interactive media work and art">
-    <meta name="author" content="Djibraeel Morojele">
-    <meta name="keywords"
-        content="Djibraeel, Djibraeel Morojele, Morojele, art portfolio, blog, essay, animation, code, web design">
+    <title>test blog menu</title>
 
-
-    <title>Blog</title>
-    <script type="module" src="../scripts/menu.js"></script>
-    <script type="module">
-        import { initialise } from '../scripts/menu.js';
-        initialise('Blog');
-    </script>
-    <link rel="stylesheet" href="../CSSscripts/style2.css">
+    <link rel="stylesheet" href="/CSSscripts/blogMenu.css">
 </head>
 
 <body>
-
-    <header>
-        <nav class="navbar">
-
-        </nav>
-
-    </header>
-    <h1> Hi Welcome to my blog page</h1>
-    <p>from this page you will be able to see short descriptions of each of my blogs and be able to navigate to find
-        which one you'd like to read</p>
-
-    <div class="timeline">
-        <a href="blog.html" class="container left-container">
-            <div class="text-box">
-                <h2> Tower of Bable</h2>
-                <small>Blog post 1</small>
-                <p>My first experiences coding in HTML, trying to get GitHub to work, and my response to the reading
-                    "Tower of Babel"</p>
-            </div>
-        </a>
-
-        <a href="blog2.html" class="container right-container">
-            <div class="text-box">
-                <h2> HyperText</h2>
-                <small>Blog post 2</small>
-                <p>The reading was about hypertext and I respond to it by unpacking its relevance today. I also
-                    underlined
-                    my folder structure and URL set up</p>
-            </div>
-        </a>
-
-        <a href="blog3.html" class="container left-container">
-            <div class="text-box">
-                <h2> Who are my Users</h2>
-                <small>Blog post 3</small>
-                <p>I did some investigating to find out my user alignment and who my users are</p>
-            </div>
-        </a>
-
-        <a href="blog4.html" class="container right-container">
-            <div class="text-box">
-                <h2> my ixd process</h2>
-                <small>Blog post 4</small>
-                <p>Goals, Users, Content</p>
-            </div>
-        </a>
-
-        <a href="blog6.html" class="container left-container">
-            <div class="text-box">
-                <h2> South African website analysis</h2>
-                <small>Blog post 6</small>
-                <p>I measured the pros and cons of 3 south african websites</p>
-            </div>
-        </a>
-
-        <a href="blog7.html" class="container right-container">
-            <div class="text-box">
-                <h2> Internet Access as a Fundamental Right</h2>
-                <small>Blog post 7</small>
-                <p>close reading...</p>
-            </div>
-        </a>
-
-        <a href="blog9.html" class="container left-container">
-            <div class="text-box">
-                <h2> Week 9: Exploring Information Geographies</h2>
-                <small>Blog post 9</small>
-                <p></p>
-            </div>
-        </a>
-
-        <a href="blog10.html" class="container right-container">
-            <div class="text-box">
-                <h2> Digital inequalities</h2>
-                <small>Blog post 10</small>
-                <p>close reading...</p>
-            </div>
-        </a>
-
-        <a href="blog11.html" class="container left-container">
-            <div class="text-box">
-                <h2> Algorithmic Colonization of Africa</h2>
-                <small>Blog post 11</small>
-                <p>close reading</p>
-            </div>
-        </a>
-
-        <a href="blog13.html" class="container right-container">
-            <div class="text-box">
-                <h2> The internet as a moral space</h2>
-                <small>Blog post 12</small>
-                <p>close reading..</p>
-            </div>
-        </a>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/Images/Untitled_Artwork 9.png" class="logo">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/blogz/index.html">Blog</a></li>
+                    <li><a href="/essay/index.html">Essay</a></li>
+                    <li><a href="/art/index.html">Art</a></li>
+                    <li><a href="/designs/index.html">Design</a></li>
+                    <li><a href="/about/index.html">About</a></li>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </ul>
+            </nav>
+        </div>
     </div>
 
-   
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 Djibraeel Morojele | All rights reserved</p>
+    <div class="blogselect-container">
+        <div id="blogselect">
+            <div class="blogcontainer">
+                <a href="/blogz/blog.html" class="blog-link">
+                    <div class="blog">
+                        <div class="blog content">
+                            <h2>GitHub and The tower of Babel</h2>
+                            <p>My first experiences coding in HTML, trying to get GitHub to work, and my response to the
+                                reading
+                                "Tower of Babel"</p>
+                            <img src="/Images/IMG_7910.jpg" alt="face">
+                            <a href="/blogz/blog.html" class="button">Read</a>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="/blogz/blog2.html" class="blog-link">
+                    <div class="blog">
+                        <div class="blog content">
+                            <h2>HyperText</h2>
+                            <p>The reading was about hypertext and I respond to it by unpacking its relevance today. I
+                                also
+                                underlined
+                                my folder structure and URL set up</p>
+                            <img src="/Images/IMG_7911.jpg" alt="face">
+                            <a href="/blogz/blog2.html" class="button">Read</a>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blogz/blog3.html" class="blog-link">
+                    <div class="blog">
+                        <div class="blog content">
+                            <h2>Who are my Users</h2>
+                            <p>I did some investigating to find out my user alignment and who my users are</p>
+                            <img src="/Images/IMG_7912.jpg" alt="face">
+                            <a href="/blogz/blog3.html" class="button">Read</a>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blogz/blog4.html" class="blog-link">
+                    <div class="blog">
+                        <div class="blog content">
+                            <h2>my ixd process</h2>
+                            <p>Goals, Users, Content</p>
+                            <img src="/Images/IMG_7913.jpg" alt="face">
+                            <a href="/blogz/blog4.html" class="button">Read</a>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blogz/blog6.html" class="blog-link">
+                    <div class="blog">
+                        <div class="blog content">
+                            <h2>South African website analysis</h2>
+                            <p>I measured the pros and cons of 3 south african websites</p>
+                            <img src="/Images/IMG_7914.jpg" alt="face">
+                            <a href="/blogz/blog6.html" class="button">Read</a>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blogz/blog7.html" class="blog-link">
+                    <div class="blog">
+                        <div class="blog content">
+                            <h2> Internet Access as a Fundamental Right</h2>
+                            <p>close reading...</p>
+                            <img src="/Images/IMG_7915.jpg" alt="face">
+                            <a href="/blogz/blog7.html" class="button">Read</a>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blogz/blog9.html" class="blog-link">
+                    <div class="blog">
+                        <div class="blog content">
+                            <h2>Exploring Information Geographies</h2>
+                            <p>close reading...</p>
+                            <img src="/Images/IMG_7916.jpg" alt="face">
+                            <a href="/blogz/blog9.html" class="button">Read</a>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blogz/blog10.html" class="blog-link">
+                    <div class="blog">
+                        <div class="blog content">
+                            <h2>Digital inequalities</h2>
+                            <p>close reading...</p>
+                            <img src="/Images/IMG_7917.jpg" alt="face">
+                            <a href="/blogz/blog10.html" class="button">Read</a>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blogz/blog11.html" class="blog-link">
+                    <div class="blog">
+                        <div class="blog content">
+                            <h2>Algorithmic Colonization of Africa</h2>
+                            <p>close reading...</p>
+                            <img src="/Images/embrass.png" alt="face">
+                            <a href="/blogz/blog11.html" class="button">Read</a>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blogz/blog13.html" class="blog-link">
+                    <div class="blog">
+                        <div class="blog content">
+                            <h2>The internet as a moral space</h2>
+                            <p>close reading...</p>
+                            <img src="/Images/mischevious.png" alt="face">
+                            <a href="/blogz/blog13.html" class="button">Read</a>
+                        </div>
+                    </div>
+                </a>
+
+
+            </div>
+
         </div>
-    </footer>
-  
+    </div>
 </body>
 
 </html>

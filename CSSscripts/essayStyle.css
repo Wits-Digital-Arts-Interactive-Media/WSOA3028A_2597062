@@ -25,34 +25,55 @@ h1 {
     padding: 10px;
 }
 
-.navbar {
-    background-color: #ab3130;
-    padding: 10px;
-}
-
-.navbar ul {
-    list-style-type: none;
+nav {
     display: flex;
-    justify-content: center;
-    padding: 5px;
-    margin: 0;
-}
-
-.navbar li {
-    margin: 0 10px;
-}
-
-.navbar a {
-    color: #ebdfa6;
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: #540302;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.navbar a:hover {
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px 10%;
+    z-index: 1000;
     background-color: #ab3130;
+}
+
+
+.logo {
+    width: 140px;
+    margin-right: 20px;
+    display: inline-block;
+    overflow: visible;
+    padding-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ab3130;
+    font-size: 20px;
 }
 
 h2 {
@@ -95,13 +116,45 @@ article {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #444;
+  }
+  
+  .scroll-to-top::before {
+    content: "\f106"; /* Font Awesome arrow up icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .scroll-to-top:hover::before {
+    transform: translateY(-2px);
+  }
+  .next-button{
+    background-color: #ebdfa6;
+  }
 .footer-content {
     background-color: #540302; /* Background color of the footer */
     color: #ebdfa6; /* Text color in the footer */
     text-align: center; /* Center the text */
     padding: 20px; /* Padding around the footer content */
-    position: fixed; /* Fixes the footer at the bottom */
+    position: relative; /* Fixes the footer at the bottom */
     width: 100%; /* Ensures the footer spans the full width of the page */
     bottom: 0; /* Positions the footer at the bottom */
     border-top: 5px solid #ab3130; /* Optional: Adds a border at the top of the footer */

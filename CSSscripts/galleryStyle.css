@@ -4,10 +4,12 @@
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
 }
+
 nav {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
+    /* changed from flex-start to space-between */
     flex-wrap: wrap;
     position: relative;
     top: 0;
@@ -16,8 +18,9 @@ nav {
     z-index: 1000;
     background-color: #ab3130;
 }
-body{
-    background:#ebdfa6 ;
+
+body {
+    background: #ebdfa6;
 }
 
 .logo {
@@ -31,6 +34,8 @@ body{
 nav ul {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    /* added flex-wrap to wrap list items on smaller screens */
 }
 
 nav ul li {
@@ -73,48 +78,53 @@ nav ul li a:hover {
 
 .header-content h1 {
     color: white;
-    /* Change the color if needed */
     font-size: 3rem;
-    /* Adjust the font size as needed */
 }
-.artcontainer{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-margin: 40px 20px 0 20px;
+
+.artcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
 }
-.artcontainer .heading{
-width: 50%;
-padding-bottom: 50px;
+
+.artcontainer.heading {
+    width: 50%;
+    padding-bottom: 50px;
 }
-.artcontainer .heading h3{
-font-size: 3em;
-font-weight: bolder ;
-border-bottom: 3px solid #222;
+
+.artcontainer.heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
 }
-.artcontainer .box{
+
+.artcontainer.box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    /* added flex-wrap to wrap box elements on smaller screens */
 }
-.artcontainer .box .gallery{
+
+.artcontainer.box.gallery {
     display: flex;
     flex-direction: column;
     width: 32.5%;
-
 }
+
 .gallery img {
-    max-width: 100%;
+    max-width: 250px;
+    /* added max-width property */
     height: auto;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Style the figure and figcaption elements */
 .gallery figure {
     margin: 20px;
     display: inline-block;
@@ -127,7 +137,6 @@ border-bottom: 3px solid #222;
     padding: 10px;
 }
 
-/* Update the.gallery container styles */
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -136,7 +145,50 @@ border-bottom: 3px solid #222;
     margin: 40px 20px;
 }
 
-/* Add a gap between the images */
 .gallery figure:not(:last-child) {
     margin-right: 20px;
+}
+
+/* Media queries for responsive design */
+
+/* Tablet and smaller screens */
+@media (max-width: 1024px) {
+    .artcontainer {
+        margin: 20px 10px 0 10px;
+    }
+
+    .artcontainer.heading {
+        width: 70%;
+    }
+
+    .artcontainer.box.gallery {
+        width: 45%;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    .artcontainer {
+        margin: 10px 5px 0 5px;
+    }
+
+    .artcontainer.heading {
+        width: 90%;
+    }
+
+    .artcontainer.box {
+        flex-direction: column;
+    }
+
+    .artcontainer.box.gallery {
+        width: 100%;
+    }
+}
+.footer-content {
+    background-color: #540302;
+    color: #ebdfa6;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #ab3130;
+    margin-top: auto;
 }
