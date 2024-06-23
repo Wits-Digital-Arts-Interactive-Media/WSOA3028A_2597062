@@ -13,6 +13,11 @@ body {
   background-color: #f9f9f9;
   text-align: center;
   padding: 20px; /* add padding to body to create space around content */
+  background-image: url('../Images/arabicBG.jpg');
+  background-size: cover;
+  background-position: left;
+  background-repeat: repeat;
+  background-attachment: scroll;
 }
 
 header {
@@ -141,7 +146,7 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-.button {
+button {
   background-color: #ab3130;
   border: none;
   border-radius: 25px;
@@ -156,8 +161,17 @@ nav ul li a:hover {
   border: 1px solid #ddd; /* add border to create separation between buttons */
 }
 
-.button:hover {
+button:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+article {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ebdfa6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .footer-content {
     background-color: #540302;
@@ -172,4 +186,12 @@ nav ul li a:hover {
     margin: 0;
     font-family: 'Georgia', Times New Roman, Times, serif;
     color: #ebdfa6;
+}
+.footer-content a {
+  color: #4f7b58; /* inherit the color from the parent element */
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  color: #fff; /* change the hover color to white */
 }
