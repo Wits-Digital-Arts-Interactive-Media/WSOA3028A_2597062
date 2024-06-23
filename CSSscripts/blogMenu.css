@@ -167,3 +167,11 @@ nav ul li a:hover {
   font-family: 'Georgia', Times New Roman, Times, serif;
   color: #ebdfa6;
 }
+.footer-content a {
+color: #4f7b58; /* inherit the color from the parent element */
+text-decoration: none;
+}
+
+.footer-content a:hover {
+color: #fff; /* change the hover color to white */
+}

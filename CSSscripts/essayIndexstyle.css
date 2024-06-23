@@ -167,3 +167,16 @@ header h1 {
     border-top: 5px solid #ab3130;
     margin-top: auto;
 }
+.footer-content p {
+    margin: 0;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    color: #ebdfa6;
+}
+.footer-content a {
+  color: #4f7b58; /* inherit the color from the parent element */
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  color: #fff; /* change the hover color to white */
+}

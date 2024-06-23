@@ -19,9 +19,11 @@
 
 <body>
     <header>
+        
+        <h1>Portfolio</h1>
         <div id="header">
             <div class="container">
-                <nav>
+                <nav class="navbar">
                     <a href="../index.html" class="logo">
                         <img src="../Images/Untitled_Artwork 9.png" alt="Logo">
                     </a>
@@ -37,58 +39,54 @@
                 </nav>
             </div>
         </div>
-        <h1>Portfolio</h1>
+        
     </header>
     <main>
         <div class="container">
-            <div class="slider">
-                <div class="item" style="background-image: url(../Images/Mountain.png);">
+
+            <div class="slide">
+
+
+                <div class="item" style="background-image: url(../Images/Untitled_Artwork\ 6.png);">
                     <div class="content">
-                        <div class="name"> Drawing</div>
-                        <div class="des"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos minus modi sunt
-                            veritatis fugit tempora commodi quaerat. Laudantium nihil alias qui excepturi. Inventore quo
-                            voluptate facere dolorum libero atque temporibus.</div>
-                            <button>See More</button>
+                        <div class="name">digitalArt</div>
+                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button onclick="location.href='/art/digitalArt.html'">See More</button>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(../Images/sunflower.jpg);">
+                <div class="item" style="background-image: url(../Images/Affect-tion.jpg);">
                     <div class="content">
-                        <div class="name"> Painting</div>
-                        <div class="des"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos minus modi sunt
-                            veritatis fugit tempora commodi quaerat. Laudantium nihil alias qui excepturi. Inventore quo
-                            voluptate facere dolorum libero atque temporibus.</div>
-                            <button>See More</button>
+                        <div class="name">Drawings</div>
+                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button onclick="location.href='/art/drawing.html'">See More</button>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(../Images/Back.png);">
+                <div class="item" style="background-image: url(../Images/SwitchOn.jpg);">
                     <div class="content">
-                        <div class="name"> Digital Art</div>
-                        <div class="des"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos minus modi sunt
-                            veritatis fugit tempora commodi quaerat. Laudantium nihil alias qui excepturi. Inventore quo
-                            voluptate facere dolorum libero atque temporibus.</div>
-                            <button>See More</button>
+                        <div class="name">Fabric Painting</div>
+                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button onclick="location.href='/art/fabricpainting.html'">See More</button>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(../Images/stillLiving.png);">
+                <div class="item" style="background-image: url(../Images/Screenshot_20240219_130917_Instagram.jpg);">
                     <div class="content">
-                        <div class="name"> Fabric Painting</div>
-                        <div class="des"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos minus modi sunt
-                            veritatis fugit tempora commodi quaerat. Laudantium nihil alias qui excepturi. Inventore quo
-                            voluptate facere dolorum libero atque temporibus.</div>
-                            <button>See More</button>
+                        <div class="name">Paintings</div>
+                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button onclick="location.href='/art/painting.html'">See More</button>
                     </div>
                 </div>
 
             </div>
+
+            <div class="button">
+                <button class="prev"><i class="fa-solid fa-arrow-left">*</i></button>
+                <button class="next"><i class="fa-solid fa-arrow-right">*</i></button>
+            </div>
+
         </div>
-
-
-
-
-
     </main>
 
-    
+    <script defer src="../scripts/scroller.js"></script>
 </body>
 
 </html>
