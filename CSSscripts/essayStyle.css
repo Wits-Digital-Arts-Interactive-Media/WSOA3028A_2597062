@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url('/Images/geometric-snjq2au3b3x1szi9.jpg') repeat center center fixed;
+    background: url('../Images/geometric-snjq2au3b3x1szi9.jpg') repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -146,8 +146,22 @@ article {
   .scroll-to-top:hover::before {
     transform: translateY(-2px);
   }
-  .next-button{
-    background-color: #ebdfa6;
+  .next-button {
+    background-color: #ab3130;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #ebdfa6;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .next-button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
   }
 .footer-content {
     background-color: #540302; /* Background color of the footer */
