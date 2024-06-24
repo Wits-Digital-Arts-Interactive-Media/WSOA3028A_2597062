@@ -179,6 +179,7 @@ body{
     cursor: pointer;
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
+    color: #ab3130;
 }
 
 
@@ -219,4 +220,100 @@ body{
 .button button:hover{
     background: #ab3130;
     color: #fff;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+  }
+  .slide .item {
+    width: 150px;
+    height: 200px;
+  }
+  .item .content {
+    width: 200px;
+    left: 50px;
+  }
+  .button {
+    bottom: 10px;
+  }
+  .button button {
+    width: 30px;
+    height: 25px;
+  }
+}
+
+/* Add this media query to adjust the layout for medium screens */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 80%;
+    height: 500px;
+    margin: 30px auto;
+  }
+  .slide .item {
+    width: 200px;
+    height: 250px;
+  }
+  .item .content {
+    width: 250px;
+    left: 70px;
+  }
+  .button {
+    bottom: 15px;
+  }
+  .button button {
+    width: 35px;
+    height: 30px;
+  }
+}
+
+/* Add this media query to adjust the layout for large screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    width: 70%;
+    height: 600px;
+    margin: 40px auto;
+    overflow-y: auto;
+  }
+  .slide .item {
+    width: 250px;
+    height: 300px;
+  }
+  .item .content {
+    width: 300px;
+    left: 90px;
+  }
+  .button {
+    bottom: 20px;
+  }
+  .button button {
+    width: 40px;
+    height: 35px;
+  }
+}
+
+/* Add this media query to adjust the layout for extra large screens */
+@media (min-width: 1025px) {
+  .container {
+    width: 60%;
+    height: 700px;
+    margin: 50px auto;
+  }
+  .slide .item {
+    width: 300px;
+    height: 350px;
+  }
+  .item .content {
+    width: 350px;
+    left: 110px;
+  }
+  .button {
+    bottom: 25px;
+  }
+  .button button {
+    width: 45px;
+    height: 40px;
+  }
 }

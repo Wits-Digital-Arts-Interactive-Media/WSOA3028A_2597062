@@ -109,6 +109,36 @@ body {
       width: 80px;
     }
   }
+  .dropdown-toggle {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+  }
+  
+  .dropdown-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-menu li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu li a:hover {
+    color: #666;
+  }
+  
+  .dropdown-toggle:hover.dropdown-menu {
+    display: block;
+  }
 
 nav {
     display: flex;

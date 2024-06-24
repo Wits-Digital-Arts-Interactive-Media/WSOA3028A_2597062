@@ -180,3 +180,152 @@ header h1 {
 .footer-content a:hover {
   color: #fff; /* change the hover color to white */
 }
+@media (max-width: 480px) {
+    body {
+      font-size: 14px;
+      padding: 10px;
+    }
+    header {
+      padding: 10px;
+    }
+   .navbar {
+      padding: 10px 5%;
+    }
+   .logo {
+      width: 100px;
+    }
+   .image-container {
+      height: 50vh;
+    }
+   .bContainer {
+      flex-direction: column;
+    }
+   .essay-briefs {
+      flex-direction: column;
+    }
+   .essay-brief {
+      margin-bottom: 20px;
+    }
+   .button {
+      font-size: 16px;
+      padding: 10px 20px;
+      margin: 10px 0;
+    }
+   .footer-content {
+      padding: 10px;
+    }
+  }
+  
+  /* Add this media query to adjust the layout for medium screens */
+  @media (min-width: 481px) and (max-width: 768px) {
+    body {
+      font-size: 16px;
+      padding: 15px;
+    }
+    header {
+      padding: 15px;
+    }
+   .navbar {
+      padding: 15px 10%;
+    }
+   .logo {
+      width: 120px;
+    }
+   .image-container {
+      height: 70vh;
+    }
+   .bContainer {
+      flex-direction: row;
+    }
+   .essay-briefs {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+   .essay-brief {
+      margin-bottom: 30px;
+    }
+   .button {
+      font-size: 18px;
+      padding: 15px 30px;
+      margin: 15px 10px;
+    }
+   .footer-content {
+      padding: 20px;
+    }
+  }
+  
+  /* Add this media query to adjust the layout for large screens */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    body {
+      font-size: 18px;
+      padding: 20px;
+    }
+    header {
+      padding: 20px;
+    }
+   .navbar {
+      padding: 20px 15%;
+    }
+   .logo {
+      width: 140px;
+    }
+   .image-container {
+      height: 90vh;
+    }
+   .bContainer {
+      flex-direction: row;
+    }
+   .essay-briefs {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+   .essay-brief {
+      margin-bottom: 40px;
+    }
+   .button {
+      font-size: 20px;
+      padding: 20px 40px;
+      margin: 20px 15px;
+    }
+   .footer-content {
+      padding: 30px;
+    }
+  }
+  
+  /* Add this media query to adjust the layout for extra large screens */
+  @media (min-width: 1025px) {
+    body {
+      font-size: 20px;
+      padding: 30px;
+    }
+    header {
+      padding: 30px;
+    }
+   .navbar {
+      padding: 30px 20%;
+    }
+   .logo {
+      width: 160px;
+    }
+   .image-container {
+      height: 100vh;
+    }
+   .bContainer {
+      flex-direction: row;
+    }
+   .essay-briefs {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+   .essay-brief {
+      margin-bottom: 50px;
+    }
+   .button {
+      font-size: 22px;
+      padding: 30px 50px;
+      margin: 30px 20px;
+    }
+   .footer-content {
+      padding: 40px;
+    }
+  }

@@ -185,3 +185,38 @@
   .scrollToTop:hover {
     background-color: #23527c;
   }
+  .footer-content {
+    background-color: #540302;
+    color: #ebdfa6;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #ab3130;
+    margin-top: auto;
+}
+.footer-content p {
+    margin: 0;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    color: #ebdfa6;
+}
+.footer-content a {
+  color: #4f7b58; /* inherit the color from the parent element */
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  color: #fff; /* change the hover color to white */
+}
+button {
+    background-color: #ab3130;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #ebdfa6;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    text-align: center;
+    border: 1px solid #ddd; /* add border to create separation between buttons */
+  }
