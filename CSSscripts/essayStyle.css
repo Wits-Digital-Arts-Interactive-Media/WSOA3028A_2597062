@@ -3,9 +3,9 @@
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     background: url('../Images/geometric-snjq2au3b3x1szi9.jpg') repeat center center fixed;
     background-size: cover;
     display: flex;
@@ -13,19 +13,19 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     margin: 0;
-}
-
-h1 {
-    font-size: 30px;
+  }
+  
+  h1 {
+    font-size: 5vw;
     font-weight: bold;
     text-align: center;
-    margin: 20px 0;
+    margin: 2% 0;
     color: black;
     background-color: #ab3130;
-    padding: 10px;
-}
-
-nav {
+    padding: 1%;
+  }
+  
+  nav {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -33,99 +33,101 @@ nav {
     position: sticky;
     top: 0;
     background: rgba(255, 255, 255, 0.5);
-    padding: 15px 10%;
+    padding: 1% 5%;
     z-index: 1000;
     background-color: #ab3130;
-}
-
-
-.logo {
-    width: 140px;
-    margin-right: 20px;
+  }
+  
+  .logo {
+    width: 20%;
+    margin-right: 2%;
     display: inline-block;
     overflow: visible;
-    padding-left: 10px;
-}
-
-nav ul {
+    padding-left: 1%;
+  }
+  
+  nav ul {
     display: flex;
     list-style: none;
-}
-
-nav ul li {
-    margin-right: 20px;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin-right: 2%;
     transition: background-color 0.3s, transform 0.3s;
-}
-
-nav ul li:hover {
+  }
+  
+  nav ul li:hover {
     background-color: rgba(255, 255, 255, 0.2);
     transform: scale(1.1);
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 2vw;
     display: block;
-    padding: 10px;
+    padding: 1%;
     transition: color 0.3s, font-size 0.3s;
-}
-
-nav ul li a:hover {
+  }
+  
+  nav ul li a:hover {
     color: #ab3130;
-    font-size: 20px;
-}
-
-h2 {
-    font-size: 24px;
+    font-size: 2.2vw;
+  }
+  
+  h2 {
+    font-size: 4vw;
     font-weight: bold;
     text-align: center;
-    margin: 20px 0;
+    margin: 2% 0;
     color: black;
     background-color: #799162;
-    padding: 10px;
-}
-
-h3 {
-    font-size: 1.5em;
+    padding: 1%;
+  }
+  
+  h3 {
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     color: black;
-}
-
-p {
-    font-size: 16px;
-    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 2vw;
+    margin-bottom: 1%;
     color: black;
-}
-
-main {
+  }
+  
+  main {
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-}
-
-article {
-    max-width: 800px;
+    padding: 2%;
+  }
+  
+  article {
+    max-width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2%;
     background-color: #ebdfa6;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.scroll-to-top {
+    border-radius: 2%;
+    box-shadow: 0 0 2% rgba(0, 0, 0, 0.1);
+  }
+  
+  .scroll-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 2%;
+    right: 2%;
     z-index: 1000;
     background-color: #333;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 2% 4%;
+    font-size: 2vw;
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.3s;
@@ -139,56 +141,119 @@ article {
     content: "\f106"; /* Font Awesome arrow up icon */
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    font-size: 24px;
-    margin-right: 10px;
+    font-size: 3vw;
+    margin-right: 1%;
   }
   
   .scroll-to-top:hover::before {
-    transform: translateY(-2px);
+    transform: translateY(-2%);
   }
+  
   .next-button {
     background-color: #ab3130;
     border: none;
-    border-radius: 25px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+    box-shadow: 0 0 2% rgba(0, 0, 0, 0.2);
     color: #ebdfa6;
     cursor: pointer;
-    font-size: 18px;
-    padding: 10px 30px;
-    margin: 20px;
+    font-size: 2.5vw;
+    padding: 1% 5%;
+    margin: 2%;
     transition: all 0.3s ease;
   }
   
   .next-button:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 4% rgba(0, 0, 0, 0.4);
     transform: scale(1.05);
   }
-.footer-content {
-    background-color: #540302; /* Background color of the footer */
-    color: #ebdfa6; /* Text color in the footer */
-    text-align: center; /* Center the text */
-    padding: 20px; /* Padding around the footer content */
-    position: relative; /* Fixes the footer at the bottom */
-    width: 100%; /* Ensures the footer spans the full width of the page */
-    bottom: 0; /* Positions the footer at the bottom */
-    border-top: 5px solid #ab3130; /* Optional: Adds a border at the top of the footer */
-}
-
-.footer-content p {
-    margin: 0; /* Removes default margin from the paragraph */
-    font-family: 'Georgia', Times New Roman, Times, serif; /* Optional: Match font style */
-    color: #ebdfa6;
-}
-.footer-content p {
-    margin: 0;
-    font-family: 'Georgia', Times New Roman, Times, serif;
-    color: #ebdfa6;
-}
-.footer-content a {
-  color: #4f7b58; /* inherit the color from the parent element */
-  text-decoration: none;
-}
-
-.footer-content a:hover {
-  color: #fff; /* change the hover color to white */
-}
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin-right: 0;
+      margin-bottom: 2%;
+    }
+  
+    .logo {
+      width: 30%;
+    }
+  
+    article {
+      padding: 5%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    nav {
+      padding: 2% 5%;
+    }
+  
+    .logo {
+      width: 40%;
+    }
+  
+    nav ul li a {
+      font-size: 3.5vw;
+      padding: 2%;
+    }
+  
+    .next-button {
+      font-size: 4vw;
+      padding: 3% 6%;
+    }
+  
+    article {
+      padding: 5%;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 6vw;
+      padding: 2%;
+    }
+  
+    h2 {
+      font-size: 5vw;
+      padding: 2%;
+    }
+  
+    nav {
+      padding: 2% 5%;
+    }
+  
+    .logo {
+      width: 50%;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    nav ul li {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 2%;
+    }
+  
+    nav ul li a {
+      font-size: 4vw;
+      padding: 2%;
+    }
+  
+    .next-button {
+      font-size: 4.5vw;
+      padding: 3% 6%;
+    }
+  
+    article {
+      padding: 5%;
+    }
+  }

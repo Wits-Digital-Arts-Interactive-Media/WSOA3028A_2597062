@@ -6,37 +6,36 @@
   }
   
   body {
-    font-size: 16px;
+    font-size: 1.6rem; /* 16px */
     line-height: 1.5;
     color: #333;
     background-color: #f9f9f9;
- 
   }
   
   header {
     background-color: #ab3130;
     color: #fff;
-    padding: 20px;
+    padding: 5%; /* 20px */
     text-align: center;
   }
   
   header h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1.5rem; /* 24px */
+    margin-bottom: 2.5%; /* 10px */
   }
   
   /* Navbar styles */
   .navbar {
     background-color: #ab3130;
-    padding: 15px 10%;
+    padding: 3.75%; /* 15px */
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
   .logo {
-    width: 140px;
-    margin-right: 20px;
+    width: 17.5%; /* 140px */
+    margin-right: 5%; /* 20px */
   }
   
   .logo img {
@@ -54,7 +53,7 @@
   }
   
   .navbar li {
-    margin-right: 20px;
+    margin-right: 5%; /* 20px */
   }
   
   .navbar a {
@@ -68,57 +67,57 @@
   }
   
   /* Responsive styles */
-  @media (max-width: 768px) {
+  @media (max-width: 75rem) { /* 1200px */
+    .navbar {
+      padding: 2.5%; /* 10px */
+    }
+    .logo {
+      width: 12.5%; /* 100px */
+    }
+  }
+  
+  @media (max-width: 59.375rem) { /* 950px */
     .navbar {
       flex-direction: column;
       align-items: flex-start;
     }
     .logo {
-      margin-bottom: 10px;
+      margin-bottom: 2.5%; /* 10px */
     }
     .navbar ul {
       flex-direction: column;
     }
     .navbar li {
       margin-right: 0;
-      margin-bottom: 10px;
+      margin-bottom: 2.5%; /* 10px */
     }
   }
   
-  nav ul li:last-child {
-    margin-right: 0; /* remove margin from last nav item */
-  }
-  
-  nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    display: block;
-    padding: 10px;
-    transition: color 0.3s, font-size 0.3s;
-  }
-  
-  nav ul li a:hover {
-    color: #ab3130;
-    font-size: 20px;
+  @media (max-width: 37.5rem) { /* 600px */
+    .navbar {
+      padding: 1.25%; /* 5px */
+    }
+    .logo {
+      width: 8.75%; /* 60px */
+    }
   }
   
   /* Add the styles for the design selection page */
   .design-selection {
-    padding: 40px;
+    padding: 10%; /* 40px */
     background-color: #f9f9f9;
   }
   
   .design-selection h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 1.5rem; /* 24px */
+    margin-bottom: 5%; /* 20px */
     color: #333;
   }
   
   .button-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 5%; /* 20px */
   }
   
   .button {
@@ -128,9 +127,9 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     color: #ebdfa6;
     cursor: pointer;
-    font-size: 18px;
-    padding: 10px 30px;
-    margin: 0 10px;
+    font-size: 1.125rem; /* 18px */
+    padding: 2.5% 7.5%; /* 10px 30px */
+    margin: 0 2.5%; /* 10px */
     transition: all 0.3s ease;
   }
   
@@ -142,24 +141,27 @@
     background-color: #4f7b58;
     transition: background-color 0.3s ease;
   }
+  
   .footer-content {
     background-color: #540302;
     color: #ebdfa6;
     text-align: center;
-    padding: 20px;
-    border-top: 5px solid #ab3130;
+    padding: 5%; /* 20px */
+    border-top: 1.25% solid #ab3130; /* 5px */
     margin-top: auto;
-}
-.footer-content p {
+  }
+  
+  .footer-content p {
     margin: 0;
     font-family: 'Georgia', Times New Roman, Times, serif;
     color: #ebdfa6;
-}
-.footer-content a {
-  color: #4f7b58; /* inherit the color from the parent element */
-  text-decoration: none;
-}
-
-.footer-content a:hover {
-  color: #fff; /* change the hover color to white */
-}
+  }
+  
+  .footer-content a {
+    color: #4f7b58; /* inherit the color from the parent element */
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    color: #fff; /* change the hover color to white */
+  }
